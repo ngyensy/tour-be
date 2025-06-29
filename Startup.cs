@@ -54,8 +54,10 @@ namespace WebApi
             services.AddScoped<ITransactionService, TransactionService>();
 
             // Configure Redis connection
-            var redisConnection = "localhost:6379"; // Thay đổi địa chỉ Redis nếu cần
-            services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(redisConnection));
+            var redisUrl = Configuration["REDIS_URL"] ?? "localhost:6379"; // fallback cho local dev
+                services.AddSingleton<IConnectionMultiplexer>(
+                    ConnectionMultiplexer.Connect(redisUrl)
+                );
 
             // Configure JWT
             var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
