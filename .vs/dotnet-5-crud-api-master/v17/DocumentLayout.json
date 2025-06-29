@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\CreateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Users\\CreateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\UpdateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Users\\UpdateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Helpers\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AutoMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Helpers\\AutoMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\WebApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AppException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Helpers\\AppException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\ErrorHandlerMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Helpers\\ErrorHandlerMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T16:07:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T16:07:25.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:59:12.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:58:51.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi.csproj",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\WebApi.csproj*",
+              "RelativeToolTip": "WebApi.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T15:47:53.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\CreateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\CreateRequest.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\CreateRequest.cs",
+              "RelativeToolTip": "Models\\Users\\CreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:36:28.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\UpdateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UpdateRequest.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Models\\Users\\UpdateRequest.cs",
+              "RelativeToolTip": "Models\\Users\\UpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:36:28.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\Role.cs",
+              "RelativeToolTip": "Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:19:40.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:19:36.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:10:14.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\DataContext.cs",
+              "RelativeDocumentMoniker": "Helpers\\DataContext.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\DataContext.cs",
+              "RelativeToolTip": "Helpers\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:10:06.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Helpers\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Helpers\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:57:48.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AppException.cs",
+              "RelativeDocumentMoniker": "Helpers\\AppException.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\AppException.cs",
+              "RelativeToolTip": "Helpers\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:57:41.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Helpers\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\84978\\OneDrive\\M\u00E1y t\u00EDnh\\Downloads\\dotnet-5-crud-api-master\\Helpers\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "Helpers\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:57:35.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
