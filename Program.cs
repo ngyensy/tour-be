@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace WebApi
 {
@@ -12,11 +13,13 @@ namespace WebApi
 
         public static IHostBuilder CreateHostBuilder(string[] args)
         {
+            var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+
             return Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(x => 
+                .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    x.UseStartup<Startup>();
-                    x.UseUrls("http://localhost:4000");
+                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseUrls($"http://0.0.0.0:{port}");
                 });
         }
     }
