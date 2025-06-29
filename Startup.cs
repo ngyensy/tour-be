@@ -53,11 +53,24 @@ namespace WebApi
             services.AddScoped<IReviewService, ReviewService>();
             services.AddScoped<ITransactionService, TransactionService>();
 
-            // Configure Redis connection
-            var redisUrl = Configuration["REDIS_URL"] ?? "localhost:6379"; // fallback cho local dev
-                services.AddSingleton<IConnectionMultiplexer>(
-                    ConnectionMultiplexer.Connect(redisUrl)
-                );
+            services.AddSingleton<IConnectionMultiplexer>(sp =>
+                {
+                    var configuration = sp.GetRequiredService<IConfiguration>();
+                    var redisUrl = configuration["REDIS_URL"] ?? "localhost:6379";
+
+                    var options = ConfigurationOptions.Parse(redisUrl);
+                    options.AbortOnConnectFail = false; // Không crash khi chưa kết nối được
+
+                    try
+                    {
+                        return ConnectionMultiplexer.Connect(options);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("⚠️ Redis connection failed: " + ex.Message);
+                        return null; // Trả null, cho phép app vẫn chạy
+                    }
+                });
 
             // Configure JWT
             var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();

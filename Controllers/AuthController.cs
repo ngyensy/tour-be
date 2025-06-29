@@ -61,34 +61,47 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("logout")]
-    public IActionResult Logout()
-    {
-        var userId = User.FindFirstValue(ClaimTypes.Name);
-        if (userId != null)
+        public IActionResult Logout()
         {
-            var db = _redis.GetDatabase();
-            db.KeyDelete($"jwt:{userId}");
+            var userId = User.FindFirstValue(ClaimTypes.Name);
+            if (_redis == null || string.IsNullOrEmpty(userId))
+                return Ok(new { message = "Đăng xuất thành công (không dùng Redis)" });
+
+            try
+            {
+                var db = _redis.GetDatabase();
+                db.KeyDelete($"jwt:{userId}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("⚠️ Failed to delete token from Redis: " + ex.Message);
+            }
+
+            return Ok(new { message = "Đăng xuất thành công" });
         }
-        return Ok(new { message = "Đăng xuất thành công" });
-    }
+
 
     [HttpPost("refresh-token")]
-    public IActionResult RefreshToken([FromBody] string refreshToken)
-    {
-        var db = _redis.GetDatabase();
-        var storedToken = db.StringGet($"refresh:{refreshToken}");
+        public IActionResult RefreshToken([FromBody] string refreshToken)
+        {
+            if (_redis == null)
+                return Unauthorized(new { message = "Không thể kiểm tra refresh token (Redis chưa sẵn sàng)" });
 
-        if (string.IsNullOrEmpty(storedToken))
-            return Unauthorized(new { message = "Refresh token không hợp lệ" });
+            var db = _redis.GetDatabase();
+            var storedToken = db.StringGet($"refresh:{refreshToken}");
 
-        var userId = storedToken.ToString();
-        var user = _userService.GetById(int.Parse(userId));
-        if (user == null)
-            return Unauthorized(new { message = "Người dùng không hợp lệ" });
+            if (string.IsNullOrEmpty(storedToken))
+                return Unauthorized(new { message = "Refresh token không hợp lệ" });
 
-        var tokenString = GenerateJwtToken(user);
-        return Ok(new { Token = tokenString, RefreshToken = refreshToken });
-    }
+            var userId = storedToken.ToString();
+            var user = _userService.GetById(int.Parse(userId));
+            if (user == null)
+                return Unauthorized(new { message = "Người dùng không hợp lệ" });
+
+            var tokenString = GenerateJwtToken(user);
+            return Ok(new { Token = tokenString, RefreshToken = refreshToken });
+        }
+
 
     private string GenerateJwtToken(User user)
     {
@@ -110,7 +123,20 @@ public class AuthController : ControllerBase
 
     private void SaveTokenToRedis(int userId, string tokenString)
     {
-        var db = _redis.GetDatabase();
-        db.StringSet($"jwt:{userId}", tokenString, TimeSpan.FromHours(2));
+        if (_redis == null)
+        {
+            Console.WriteLine("⚠️ Redis is not connected. Skipping token storage.");
+            return;
+        }
+
+        try
+        {
+            var db = _redis.GetDatabase();
+            db.StringSet($"jwt:{userId}", tokenString, TimeSpan.FromHours(2));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("⚠️ Failed to save token to Redis: " + ex.Message);
+        }
     }
 }
