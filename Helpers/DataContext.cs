@@ -12,12 +12,22 @@ namespace WebApi.Helpers
         public DataContext(IConfiguration configuration)
         {
             Configuration = configuration;
-        }
+        }   
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseMySql(Configuration.GetConnectionString("WebApiDatabase"),
-                new MySqlServerVersion(new Version(8, 0, 21)));
+            var connectionString = Configuration.GetConnectionString("WebApiDatabase");
+
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 21));
+
+            options.UseMySql(connectionString, serverVersion, mySqlOptions =>
+            {
+                mySqlOptions.EnableRetryOnFailure(
+                    maxRetryCount: 5,
+                    maxRetryDelay: TimeSpan.FromSeconds(10),
+                    errorNumbersToAdd: null
+                );
+            });
         }
 
         public DbSet<User> Users { get; set; }
