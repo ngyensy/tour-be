@@ -18,6 +18,9 @@ namespace WebApi.Helpers
         {
             var connectionString = Configuration.GetConnectionString("WebApiDatabase");
 
+             // 👉 In ra connection string để kiểm tra (log sẽ hiển thị trên Render logs)
+            Console.WriteLine($"[DEBUG] Connection String: {connectionString}");
+
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 21));
 
             options.UseMySql(connectionString, serverVersion, mySqlOptions =>
