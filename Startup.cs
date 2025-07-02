@@ -120,7 +120,7 @@ namespace WebApi
 
             // Global CORS policy
             app.UseCors(x => x
-                .WithOrigins("tour-fe-mu.vercel.app")
+                .AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader());
 
